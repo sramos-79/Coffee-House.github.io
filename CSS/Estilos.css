@@ -6,24 +6,27 @@
 }
 /*EDICIONES EN HEADER*/
 .bgrheader{
-    background-color: beige;
-    height: 30vh;
+height: 30vh;
+background-color: beige;
 }
 .logoedicion{
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    padding-left: 47%;
-    
-    
+    padding-left: 40%;
 }
-.textologo{
-    font-size: 1.6rem;
-    padding-left: 43%;
-}
+
 .links{
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 33, 10);
+    box-shadow: none;
+    border: none;
+    width: 150px;
+    height: 28px;
     text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+
 }
 .ordenheader{
     display: flex;
@@ -37,7 +40,7 @@
 
     
 }
-/*Texto de Main en Index*/
+/*Texto y botón de Main en Index*/
 .textmain{
     display: flex;
     align-items: center;
@@ -45,13 +48,22 @@
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 3rem;
-
+}
+.comprar{
+    color: rgb(255, 255, 255);
+    background-color: #3d210a;
+    box-shadow: none;
+    border: none;
+    width: 150px;
+    height: 28px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 44%;
 }
 /*Posición de video*/
 .video{
     overflow: hidden;
     width: 100%;
-    height: auto;
 }
 /*Edición formulario*/
 .spaceforms{
@@ -59,6 +71,8 @@
     flex-direction: column;
     width: 300px;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
     
 }
 .soloformulario{
@@ -70,11 +84,11 @@
 }
 .backcontact{
     background-image: url(../Assets/img/contacto.jpg);
-    min-height: 80vh;
+    min-height: 60vh;
 }
-/*Footter*/
+/*Footer*/
 .footeredicion{
-    background-color: black;
+    background-color: #3d210a;
     color: rgb(255, 255, 255);
     font-size: 0.6rem;
     height: 15vh;
@@ -85,33 +99,44 @@
 /*Orden de sección productos*/
 .productosorden{
     display: flex;
-    padding-left: 20px;
+    padding-left: 10px;
     justify-content: center;
 
 }
 .precio{
+    color: rgb(255, 255, 255);
+    background-color: #3d210a;
+    box-shadow: none;
+    border: none;
+    width: 90px;
+    height: 28px;
     display: flex;
     justify-content: center;
-    margin-left: 50%;
+    margin-left: 46%;
     margin-bottom: 20px;
     margin-top: 20px;
     align-items: center;
 }
 .textoh2{
-    padding-left: 30px;
+    padding-left: 43%;
     padding-bottom: 20px;
+    padding-top: 30px;
     color: black;
 }
 .carrito{
     display: flex;
     justify-content: center;
-    margin-left: 48%;
+    margin-left: 46%;
     margin-bottom: 20px;
     margin-top: 20px;
     align-items: center;
 }
 .contactext{
     color: rgb(255, 255, 255);
-    padding-left: 42%;
-    margin-bottom: 20px;
+    padding-left: 43%;
+    margin-bottom: 10px;
+    padding-top: 25px;
+}
+.colorback{
+    background-color: beige;
 }
