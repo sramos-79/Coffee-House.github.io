@@ -4,42 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COFFEE HOUSE</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/Estilos.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="bgrheader">
-                <li>
-                <a  href="index.html">
-                <img class="logoedicion" src="./Assets/img/COFFEE LOGO.png" alt="Logo de Coffee House" width="250" loading="lazy">
-                </a>
+<nav class="navbar navbar-expand-lg navbar-light bg-beige">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img class="logoedicion" src="./Assets/img/COFFEE LOGO.png" alt="Logo de Coffee House" width="315" loading="lazy" href="./index.html">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-around nav-pills d-flex">
+                <li class="nav-item">
+                <a class="nav-link active fs-5" href="./index.html">Populares</a>
                 </li>
-                <div class="ordenheader">
-                <li>
-                    <a href="./index.html">
-                    <button  class="links">Populares</button>
-                    </a>
+                <li class="nav-item">
+                <a class="nav-link active fs-5" href="./index.html">Productos</a>
                 </li>
-                <li>
-                    <a href="index.html">
-                    <button class="links">Productos</button>
-                    </a>
+                <li class="nav-item">
+                <a class="nav-link active fs-5" href="./contacto.html">Contacto</a>
                 </li>
-                <li>
-                    <a href="./contacto.html">
-                    <button class="links">Contacto</button>
-                    </a>
+                <li class="nav-item">
+                <a class="nav-link active fs-5" href="./index.html">Carrito</a>
                 </li>
-                <li>
-                    <a href="index.html">
-                    <button class="links">Carrito</button>
-                    </a>
-                </li>
-                </div>
-               
-        
             </ul>
+            </div>
+        </div>
         </nav>
     </header>
     <main class="backcontact">
@@ -68,5 +62,6 @@
         </ul>
 
     </footer>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
 </html>

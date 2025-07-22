@@ -13,7 +13,8 @@ background-color: beige;
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    padding-left: 40%;
+    padding-left: 20%;
+    padding-bottom: 18px;
 }
 
 .links{
@@ -26,6 +27,12 @@ background-color: beige;
     text-decoration: none;
     font-size: 1rem;
     cursor: pointer;
+
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgb(61, 33, 10);
+  color:white !important;
 
 }
 .ordenheader{
@@ -47,7 +54,7 @@ background-color: beige;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 3rem;
+
 }
 .comprar{
     color: rgb(255, 255, 255);
