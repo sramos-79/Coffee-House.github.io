@@ -97,8 +97,7 @@ background-color: beige;
 .footeredicion{
     background-color: #3d210a;
     color: rgb(255, 255, 255);
-    font-size: 0.6rem;
-    height: 15vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,4 +145,24 @@ background-color: beige;
 }
 .colorback{
     background-color: beige;
+}
+/*Botones de Carrito*/
+.botonfin{
+    color: rgb(255, 255, 255);
+    background-color: #261705;
+    box-shadow: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 46%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+.botonvaciar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
 }

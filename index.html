@@ -29,7 +29,7 @@
                 <a class="nav-link active fs-5" href="./contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active fs-5" href="./index.html">Carrito</a>
+                <a class="nav-link active fs-5" href="./carrito.html">Carrito</a>
                 </li>
             </ul>
             </div>
@@ -42,31 +42,33 @@
     <h1 class="textmain fs-7">Café que despierta tus sentidos</h1>
     <button  class="comprar">Comprar</button>
     </main>
-    <section>
+<section>
+    <h2 class="textoh2">• PRODUCTOS •</h2>
+    <div>
+        <div class="productosorden">
+            <img src="./Assets/img/Café 1.jpg" alt="" width="300" loading="lazy">
+        </div>
+        <button class="precio añadir-carrito" data-id="1" data-nombre="Café Berlín" data-precio="12000">$12000</button>
         
-        <h2 class="textoh2">• PRODUCTOS •</h2>
-        <div>
         <div class="productosorden">
-        <img src="./Assets/img/Café 1.jpg" alt="" width="300" loading="lazy" >
+            <img src="./Assets/img/Café 2.jpg" alt="" width="300" loading="lazy">
         </div>
-        <button class="precio">$12000</button>
+        <button class="precio añadir-carrito" data-id="2" data-nombre="Café Molido de Ecuador" data-precio="14000">$14000</button>
+        
         <div class="productosorden">
-        <img src="./Assets/img/Café 2.jpg" alt="" width="300" loading="lazy" >
+            <img src="./Assets/img/Café 3.jpg" alt="" width="300" loading="lazy">
         </div>
-        <button class="precio">$14000</button>
+        <button class="precio añadir-carrito" data-id="3" data-nombre="Café Filtrante" data-precio="17000">$17000</button>
+        
         <div class="productosorden">
-        <img src="./Assets/img/Café 3.jpg" alt="" width="300" loading="lazy" >
+            <img src="./Assets/img/Café 4.jpg" alt="" width="300" loading="lazy">
         </div>
-        <button class="precio">$17000</button>
-        <div class="productosorden">
-        <img src="./Assets/img/Café 4.jpg" alt="" width="300" loading="lazy" >
-        </div>
-        <button class="precio">$10000</button>
-        </div>
-        <button class="carrito">Añadir a carrito</button>
+        <button class="precio añadir-carrito" data-id="4" data-nombre="Café Costa Coffee Blend" data-precio="10000">$10000</button>
+    </div>
+    <button class="carrito">Ir a tu carrito</button>
 
+</section>
 
-    </section>
     
     <footer>
         <ul class="footeredicion">
@@ -75,5 +77,6 @@
 
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>

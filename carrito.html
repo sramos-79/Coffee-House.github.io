@@ -36,33 +36,28 @@
         </div>
         </nav>
     </header>
-    <main class="backcontact">
-        <h1 class="contactext">CONTACTO</h1>
-        <form class="soloformulario" action="https://formspree.io/f/xvgajwbp" method="post">
-            <div class="spaceforms">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" required>
-            </div>
-            <div class="spaceforms">
-            <label for="">Email:</label>
-            <input type="email" name="email" id="email" required>
-            </div>
-            <div class="spaceforms">
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
-            </div>
-            <div>
-            <button type="submit">Enviar</button>
-            </div>
-        </form>
-    </main>
-    <footer>
-        <ul class="footeredicion">
-            <h2>COFFEE HOUSE</h2>
-        </ul>
 
-    </footer>
-    <script src="./JS/bootstrap.bundle.min.js"></script>
-    <script src="./JS/main.js"></script>
+<main>
+    <h2 class="textoh2">Tu Carrito de Compras</h2>
+    <div id="productosCarrito" class="container">
+    </div>
+
+    <div class="d-flex justify-content-between mt-4">
+        <h3>Total: <span id="totalCarrito">$0</span></h3>
+        <button id="vaciarCarrito" class="botonvaciar">Vaciar Carrito</button>
+    </div>
+
+    <button class="botonfin mt-3" id="finalizarCompra">FINALIZA TU COMPRA</button>
+</main>
+
+<footer>
+    <ul class="footeredicion">
+        <h2>COFFEE HOUSE</h2>
+    </ul>
+</footer>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./JS/main.js"></script>
+
 </body>
 </html>
